@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="phpunit_bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="true"
+         processIsolation="true"
+>
+    <testsuites>
+        <testsuite name="All">
+            <directory suffix="Test.php">./tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <!--<env name="APP_BASE_DOMAIN" value="test"/>
+        <includePath>.</includePath>
+        <ini name="foo" value="bar"/>
+        <const name="foo" value="bar"/>
+        <var name="foo" value="bar"/>
+        <env name="foo" value="bar"/>
+        <post name="foo" value="bar"/>
+        <get name="foo" value="bar"/>
+        <cookie name="foo" value="bar"/>
+        <server name="foo" value="bar"/>
+        <files name="foo" value="bar"/>
+        <request name="foo" value="bar"/>-->
+    </php>
+</phpunit>
